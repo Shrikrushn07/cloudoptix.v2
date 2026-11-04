@@ -1,0 +1,6 @@
+{
+  "name": "CloudOptiX",
+  "description": "AI-Driven Autonomous Multi-Cloud Resource & Workload Orchestrator across AWS, Azure, and Google Cloud",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,1054 @@
+{
+  "test_workloads": [
+    {
+      "workloadId": "WL-283",
+      "workloadNodeIdx": 86,
+      "candidates": [
+        {
+          "cloudId": "aws",
+          "cloudNodeIdx": 0,
+          "interaction": [
+            0.88,
+            0.9,
+            0.91,
+            0.42
+          ],
+          "targetProbability": 0.2641,
+          "isFeasible": true,
+          "python_prob": 0.28871405124664307,
+          "python_logit": -0.9016377925872803
+        },
+        {
+          "cloudId": "azure",
+          "cloudNodeIdx": 1,
+          "interaction": [
+            0.89,
+            0.99,
+            0.92,
+            0.55
+          ],
+          "targetProbability": 0.3459,
+          "isFeasible": true,
+          "python_prob": 0.328092485666275,
+          "python_logit": -0.7168252468109131
+        },
+        {
+          "cloudId": "gcp",
+          "cloudNodeIdx": 2,
+          "interaction": [
+            0.9,
+            1,
+            0.92,
+            0.81
+          ],
+          "targetProbability": 0.39,
+          "isFeasible": true,
+          "python_prob": 0.3514246344566345,
+          "python_logit": -0.6127829551696777
+        }
+      ],
+      "python_unmasked_choice": "gcp",
+      "python_masked_choice": "gcp"
+    },
+    {
+      "workloadId": "WL-291",
+      "workloadNodeIdx": 94,
+      "candidates": [
+        {
+          "cloudId": "aws",
+          "cloudNodeIdx": 0,
+          "interaction": [
+            0.88,
+            0.75,
+            0.8,
+            0.42
+          ],
+          "targetProbability": 0.2604,
+          "isFeasible": false,
+          "python_prob": 0.2966734766960144,
+          "python_logit": -0.863189160823822
+        },
+        {
+          "cloudId": "azure",
+          "cloudNodeIdx": 1,
+          "interaction": [
+            0.89,
+            0.87,
+            0.83,
+            0.55
+          ],
+          "targetProbability": 0.3311,
+          "isFeasible": false,
+          "python_prob": 0.33539459109306335,
+          "python_logit": -0.6838858127593994
+        },
+        {
+          "cloudId": "gcp",
+          "cloudNodeIdx": 2,
+          "interaction": [
+            0.9,
+            0.94,
+            0.84,
+            0.81
+          ],
+          "targetProbability": 0.4085,
+          "isFeasible": true,
+          "python_prob": 0.3576672077178955,
+          "python_logit": -0.5855036377906799
+        }
+      ],
+      "python_unmasked_choice": "gcp",
+      "python_masked_choice": "gcp"
+    },
+    {
+      "workloadId": "WL-225",
+      "workloadNodeIdx": 28,
+      "candidates": [
+        {
+          "cloudId": "aws",
+          "cloudNodeIdx": 0,
+          "interaction": [
+            0.27,
+            0.1,
+            0.88,
+            0.42
+          ],
+          "targetProbability": 0.2565,
+          "isFeasible": false,
+          "python_prob": 0.31376591324806213,
+          "python_logit": -0.7825716137886047
+        },
+        {
+          "cloudId": "azure",
+          "cloudNodeIdx": 1,
+          "interaction": [
+            0.34,
+            0.1,
+            0.89,
+            0.55
+          ],
+          "targetProbability": 0.3164,
+          "isFeasible": false,
+          "python_prob": 0.35486528277397156,
+          "python_logit": -0.5977209210395813
+        },
+        {
+          "cloudId": "gcp",
+          "cloudNodeIdx": 2,
+          "interaction": [
+            0.38,
+            0.3,
+            0.89,
+            0.81
+          ],
+          "targetProbability": 0.4271,
+          "isFeasible": false,
+          "python_prob": 0.3754672408103943,
+          "python_logit": -0.508832573890686
+        }
+      ],
+      "python_unmasked_choice": "gcp",
+      "python_masked_choice": "quarantined"
+    },
+    {
+      "workloadId": "WL-271",
+      "workloadNodeIdx": 74,
+      "candidates": [
+        {
+          "cloudId": "aws",
+          "cloudNodeIdx": 0,
+          "interaction": [
+            0.76,
+            0.6,
+            0.87,
+            0.42
+          ],
+          "targetProbability": 0.2663,
+          "isFeasible": true,
+          "python_prob": 0.2965676188468933,
+          "python_logit": -0.8636965155601501
+        },
+        {
+          "cloudId": "azure",
+          "cloudNodeIdx": 1,
+          "interaction": [
+            0.78,
+            0.76,
+            0.87,
+            0.55
+          ],
+          "targetProbability": 0.3285,
+          "isFeasible": true,
+          "python_prob": 0.3356857895851135,
+          "python_logit": -0.6825795769691467
+        },
+        {
+          "cloudId": "gcp",
+          "cloudNodeIdx": 2,
+          "interaction": [
+            0.79,
+            0.85,
+            0.88,
+            0.81
+          ],
+          "targetProbability": 0.4052,
+          "isFeasible": true,
+          "python_prob": 0.3576706349849701,
+          "python_logit": -0.5854887366294861
+        }
+      ],
+      "python_unmasked_choice": "gcp",
+      "python_masked_choice": "gcp"
+    },
+    {
+      "workloadId": "WL-115",
+      "workloadNodeIdx": 6,
+      "candidates": [
+        {
+          "cloudId": "aws",
+          "cloudNodeIdx": 0,
+          "interaction": [
+            0.88,
+            0.5,
+            0.91,
+            0.42
+          ],
+          "targetProbability": 0.2547,
+          "isFeasible": false,
+          "python_prob": 0.2929202914237976,
+          "python_logit": -0.8812428712844849
+        },
+        {
+          "cloudId": "azure",
+          "cloudNodeIdx": 1,
+          "interaction": [
+            0.89,
+            0.69,
+            0.92,
+            0.55
+          ],
+          "targetProbability": 0.3337,
+          "isFeasible": true,
+          "python_prob": 0.33117246627807617,
+          "python_logit": -0.7028868794441223
+        },
+        {
+          "cloudId": "gcp",
+          "cloudNodeIdx": 2,
+          "interaction": [
+            0.9,
+            0.79,
+            0.93,
+            0.81
+          ],
+          "targetProbability": 0.4116,
+          "isFeasible": true,
+          "python_prob": 0.3528713285923004,
+          "python_logit": -0.6064416766166687
+        }
+      ],
+      "python_unmasked_choice": "gcp",
+      "python_masked_choice": "gcp"
+    },
+    {
+      "workloadId": "WL-277",
+      "workloadNodeIdx": 80,
+      "candidates": [
+        {
+          "cloudId": "aws",
+          "cloudNodeIdx": 0,
+          "interaction": [
+            0.51,
+            0.52,
+            0.81,
+            0.42
+          ],
+          "targetProbability": 0.246,
+          "isFeasible": false,
+          "python_prob": 0.3044019639492035,
+          "python_logit": -0.8264228701591492
+        },
+        {
+          "cloudId": "azure",
+          "cloudNodeIdx": 1,
+          "interaction": [
+            0.56,
+            0.7,
+            0.83,
+            0.55
+          ],
+          "targetProbability": 0.332,
+          "isFeasible": false,
+          "python_prob": 0.34230121970176697,
+          "python_logit": -0.6530559659004211
+        },
+        {
+          "cloudId": "gcp",
+          "cloudNodeIdx": 2,
+          "interaction": [
+            0.59,
+            0.8,
+            0.85,
+            0.81
+          ],
+          "targetProbability": 0.4221,
+          "isFeasible": true,
+          "python_prob": 0.36347314715385437,
+          "python_logit": -0.5603211522102356
+        }
+      ],
+      "python_unmasked_choice": "gcp",
+      "python_masked_choice": "gcp"
+    },
+    {
+      "workloadId": "WL-264",
+      "workloadNodeIdx": 67,
+      "candidates": [
+        {
+          "cloudId": "aws",
+          "cloudNodeIdx": 0,
+          "interaction": [
+            0.85,
+            0.86,
+            0.85,
+            0.42
+          ],
+          "targetProbability": 0.2663,
+          "isFeasible": true,
+          "python_prob": 0.29263609647750854,
+          "python_logit": -0.8826154470443726
+        },
+        {
+          "cloudId": "azure",
+          "cloudNodeIdx": 1,
+          "interaction": [
+            0.86,
+            0.96,
+            0.86,
+            0.55
+          ],
+          "targetProbability": 0.3285,
+          "isFeasible": true,
+          "python_prob": 0.3321562707424164,
+          "python_logit": -0.6984485983848572
+        },
+        {
+          "cloudId": "gcp",
+          "cloudNodeIdx": 2,
+          "interaction": [
+            0.87,
+            1,
+            0.86,
+            0.81
+          ],
+          "targetProbability": 0.4052,
+          "isFeasible": true,
+          "python_prob": 0.3551807701587677,
+          "python_logit": -0.5963432788848877
+        }
+      ],
+      "python_unmasked_choice": "gcp",
+      "python_masked_choice": "gcp"
+    },
+    {
+      "workloadId": "WL-229",
+      "workloadNodeIdx": 32,
+      "candidates": [
+        {
+          "cloudId": "aws",
+          "cloudNodeIdx": 0,
+          "interaction": [
+            0.7,
+            0.64,
+            0.86,
+            0.42
+          ],
+          "targetProbability": 0.2521,
+          "isFeasible": true,
+          "python_prob": 0.296828955411911,
+          "python_logit": -0.8624441623687744
+        },
+        {
+          "cloudId": "azure",
+          "cloudNodeIdx": 1,
+          "interaction": [
+            0.73,
+            0.79,
+            0.87,
+            0.55
+          ],
+          "targetProbability": 0.3404,
+          "isFeasible": true,
+          "python_prob": 0.3354962170124054,
+          "python_logit": -0.6834297776222229
+        },
+        {
+          "cloudId": "gcp",
+          "cloudNodeIdx": 2,
+          "interaction": [
+            0.74,
+            0.88,
+            0.87,
+            0.81
+          ],
+          "targetProbability": 0.4075,
+          "isFeasible": true,
+          "python_prob": 0.3578856587409973,
+          "python_logit": -0.5845528244972229
+        }
+      ],
+      "python_unmasked_choice": "gcp",
+      "python_masked_choice": "gcp"
+    },
+    {
+      "workloadId": "WL-255",
+      "workloadNodeIdx": 58,
+      "candidates": [
+        {
+          "cloudId": "aws",
+          "cloudNodeIdx": 0,
+          "interaction": [
+            0.85,
+            0.75,
+            0.88,
+            0.42
+          ],
+          "targetProbability": 0.2578,
+          "isFeasible": true,
+          "python_prob": 0.2933720350265503,
+          "python_logit": -0.879062831401825
+        },
+        {
+          "cloudId": "azure",
+          "cloudNodeIdx": 1,
+          "interaction": [
+            0.86,
+            0.87,
+            0.89,
+            0.55
+          ],
+          "targetProbability": 0.3378,
+          "isFeasible": true,
+          "python_prob": 0.3326581120491028,
+          "python_logit": -0.6961873173713684
+        },
+        {
+          "cloudId": "gcp",
+          "cloudNodeIdx": 2,
+          "interaction": [
+            0.87,
+            0.94,
+            0.89,
+            0.81
+          ],
+          "targetProbability": 0.4044,
+          "isFeasible": true,
+          "python_prob": 0.35525500774383545,
+          "python_logit": -0.5960189700126648
+        }
+      ],
+      "python_unmasked_choice": "gcp",
+      "python_masked_choice": "gcp"
+    },
+    {
+      "workloadId": "WL-223",
+      "workloadNodeIdx": 26,
+      "candidates": [
+        {
+          "cloudId": "aws",
+          "cloudNodeIdx": 0,
+          "interaction": [
+            0.11,
+            0.86,
+            0.86,
+            0.42
+          ],
+          "targetProbability": 0.2578,
+          "isFeasible": true,
+          "python_prob": 0.3106158971786499,
+          "python_logit": -0.7972415089607239
+        },
+        {
+          "cloudId": "azure",
+          "cloudNodeIdx": 1,
+          "interaction": [
+            0.18,
+            0.96,
+            0.87,
+            0.55
+          ],
+          "targetProbability": 0.3378,
+          "isFeasible": true,
+          "python_prob": 0.3500436246395111,
+          "python_logit": -0.6188474297523499
+        },
+        {
+          "cloudId": "gcp",
+          "cloudNodeIdx": 2,
+          "interaction": [
+            0.22,
+            1,
+            0.88,
+            0.81
+          ],
+          "targetProbability": 0.4044,
+          "isFeasible": true,
+          "python_prob": 0.3725214898586273,
+          "python_logit": -0.5214146971702576
+        }
+      ],
+      "python_unmasked_choice": "gcp",
+      "python_masked_choice": "gcp"
+    },
+    {
+      "workloadId": "WL-135",
+      "workloadNodeIdx": 10,
+      "candidates": [
+        {
+          "cloudId": "aws",
+          "cloudNodeIdx": 0,
+          "interaction": [
+            0.88,
+            0.42,
+            0.83,
+            0.42
+          ],
+          "targetProbability": 0.244,
+          "isFeasible": false,
+          "python_prob": 0.29810163378715515,
+          "python_logit": -0.8563541769981384
+        },
+        {
+          "cloudId": "azure",
+          "cloudNodeIdx": 1,
+          "interaction": [
+            0.89,
+            0.63,
+            0.85,
+            0.55
+          ],
+          "targetProbability": 0.3497,
+          "isFeasible": true,
+          "python_prob": 0.3360212445259094,
+          "python_logit": -0.6810757517814636
+        },
+        {
+          "cloudId": "gcp",
+          "cloudNodeIdx": 2,
+          "interaction": [
+            0.9,
+            0.75,
+            0.85,
+            0.81
+          ],
+          "targetProbability": 0.4063,
+          "isFeasible": true,
+          "python_prob": 0.35798150300979614,
+          "python_logit": -0.5841357111930847
+        }
+      ],
+      "python_unmasked_choice": "gcp",
+      "python_masked_choice": "gcp"
+    },
+    {
+      "workloadId": "WL-140",
+      "workloadNodeIdx": 11,
+      "candidates": [
+        {
+          "cloudId": "aws",
+          "cloudNodeIdx": 0,
+          "interaction": [
+            0.76,
+            0.56,
+            0.8,
+            0.42
+          ],
+          "targetProbability": 0.2435,
+          "isFeasible": false,
+          "python_prob": 0.2982596755027771,
+          "python_logit": -0.8555989265441895
+        },
+        {
+          "cloudId": "azure",
+          "cloudNodeIdx": 1,
+          "interaction": [
+            0.78,
+            0.73,
+            0.83,
+            0.55
+          ],
+          "targetProbability": 0.3387,
+          "isFeasible": false,
+          "python_prob": 0.3361528515815735,
+          "python_logit": -0.6804860830307007
+        },
+        {
+          "cloudId": "gcp",
+          "cloudNodeIdx": 2,
+          "interaction": [
+            0.79,
+            0.83,
+            0.84,
+            0.81
+          ],
+          "targetProbability": 0.4178,
+          "isFeasible": false,
+          "python_prob": 0.35800331830978394,
+          "python_logit": -0.5840408205986023
+        }
+      ],
+      "python_unmasked_choice": "gcp",
+      "python_masked_choice": "quarantined"
+    },
+    {
+      "workloadId": "WL-308",
+      "workloadNodeIdx": 111,
+      "candidates": [
+        {
+          "cloudId": "aws",
+          "cloudNodeIdx": 0,
+          "interaction": [
+            0.96,
+            0.64,
+            0.83,
+            0.42
+          ],
+          "targetProbability": 0.2572,
+          "isFeasible": false,
+          "python_prob": 0.2938769459724426,
+          "python_logit": -0.8766284584999084
+        },
+        {
+          "cloudId": "azure",
+          "cloudNodeIdx": 1,
+          "interaction": [
+            0.97,
+            0.79,
+            0.85,
+            0.55
+          ],
+          "targetProbability": 0.327,
+          "isFeasible": true,
+          "python_prob": 0.3323720693588257,
+          "python_logit": -0.6974760293960571
+        },
+        {
+          "cloudId": "gcp",
+          "cloudNodeIdx": 2,
+          "interaction": [
+            0.97,
+            0.88,
+            0.86,
+            0.81
+          ],
+          "targetProbability": 0.4157,
+          "isFeasible": true,
+          "python_prob": 0.3544757068157196,
+          "python_logit": -0.5994229912757874
+        }
+      ],
+      "python_unmasked_choice": "gcp",
+      "python_masked_choice": "gcp"
+    },
+    {
+      "workloadId": "WL-222",
+      "workloadNodeIdx": 25,
+      "candidates": [
+        {
+          "cloudId": "aws",
+          "cloudNodeIdx": 0,
+          "interaction": [
+            0.27,
+            0.91,
+            0.89,
+            0.42
+          ],
+          "targetProbability": 0.2552,
+          "isFeasible": true,
+          "python_prob": 0.3040556013584137,
+          "python_logit": -0.8280591368675232
+        },
+        {
+          "cloudId": "azure",
+          "cloudNodeIdx": 1,
+          "interaction": [
+            0.34,
+            0.99,
+            0.9,
+            0.55
+          ],
+          "targetProbability": 0.3445,
+          "isFeasible": true,
+          "python_prob": 0.34335607290267944,
+          "python_logit": -0.6483737826347351
+        },
+        {
+          "cloudId": "gcp",
+          "cloudNodeIdx": 2,
+          "interaction": [
+            0.38,
+            1,
+            0.9,
+            0.81
+          ],
+          "targetProbability": 0.4003,
+          "isFeasible": true,
+          "python_prob": 0.3665101230144501,
+          "python_logit": -0.5472179055213928
+        }
+      ],
+      "python_unmasked_choice": "gcp",
+      "python_masked_choice": "gcp"
+    },
+    {
+      "workloadId": "WL-226",
+      "workloadNodeIdx": 29,
+      "candidates": [
+        {
+          "cloudId": "aws",
+          "cloudNodeIdx": 0,
+          "interaction": [
+            0.85,
+            0.85,
+            0.89,
+            0.42
+          ],
+          "targetProbability": 0.2695,
+          "isFeasible": true,
+          "python_prob": 0.2932552993297577,
+          "python_logit": -0.8796259760856628
+        },
+        {
+          "cloudId": "azure",
+          "cloudNodeIdx": 1,
+          "interaction": [
+            0.86,
+            0.95,
+            0.9,
+            0.55
+          ],
+          "targetProbability": 0.3325,
+          "isFeasible": true,
+          "python_prob": 0.33281978964805603,
+          "python_logit": -0.6954590082168579
+        },
+        {
+          "cloudId": "gcp",
+          "cloudNodeIdx": 2,
+          "interaction": [
+            0.87,
+            1,
+            0.9,
+            0.81
+          ],
+          "targetProbability": 0.398,
+          "isFeasible": true,
+          "python_prob": 0.3557177186012268,
+          "python_logit": -0.5939993858337402
+        }
+      ],
+      "python_unmasked_choice": "gcp",
+      "python_masked_choice": "gcp"
+    },
+    {
+      "workloadId": "WL-235",
+      "workloadNodeIdx": 38,
+      "candidates": [
+        {
+          "cloudId": "aws",
+          "cloudNodeIdx": 0,
+          "interaction": [
+            0.1,
+            0.82,
+            0.89,
+            0.42
+          ],
+          "targetProbability": 0.2663,
+          "isFeasible": true,
+          "python_prob": 0.31108227372169495,
+          "python_logit": -0.795064389705658
+        },
+        {
+          "cloudId": "azure",
+          "cloudNodeIdx": 1,
+          "interaction": [
+            0.12,
+            0.93,
+            0.89,
+            0.55
+          ],
+          "targetProbability": 0.3285,
+          "isFeasible": true,
+          "python_prob": 0.35189518332481384,
+          "python_logit": -0.6107191443443298
+        },
+        {
+          "cloudId": "gcp",
+          "cloudNodeIdx": 2,
+          "interaction": [
+            0.17,
+            0.98,
+            0.9,
+            0.81
+          ],
+          "targetProbability": 0.4052,
+          "isFeasible": true,
+          "python_prob": 0.3740469217300415,
+          "python_logit": -0.5148942470550537
+        }
+      ],
+      "python_unmasked_choice": "gcp",
+      "python_masked_choice": "gcp"
+    },
+    {
+      "workloadId": "WL-257",
+      "workloadNodeIdx": 60,
+      "candidates": [
+        {
+          "cloudId": "aws",
+          "cloudNodeIdx": 0,
+          "interaction": [
+            0.96,
+            0.64,
+            0.88,
+            0.42
+          ],
+          "targetProbability": 0.2572,
+          "isFeasible": true,
+          "python_prob": 0.2911708354949951,
+          "python_logit": -0.8897043466567993
+        },
+        {
+          "cloudId": "azure",
+          "cloudNodeIdx": 1,
+          "interaction": [
+            0.97,
+            0.79,
+            0.89,
+            0.55
+          ],
+          "targetProbability": 0.327,
+          "isFeasible": true,
+          "python_prob": 0.32987162470817566,
+          "python_logit": -0.7087658047676086
+        },
+        {
+          "cloudId": "gcp",
+          "cloudNodeIdx": 2,
+          "interaction": [
+            0.97,
+            0.88,
+            0.89,
+            0.81
+          ],
+          "targetProbability": 0.4157,
+          "isFeasible": true,
+          "python_prob": 0.352304071187973,
+          "python_logit": -0.6089266538619995
+        }
+      ],
+      "python_unmasked_choice": "gcp",
+      "python_masked_choice": "gcp"
+    },
+    {
+      "workloadId": "WL-262",
+      "workloadNodeIdx": 65,
+      "candidates": [
+        {
+          "cloudId": "aws",
+          "cloudNodeIdx": 0,
+          "interaction": [
+            0.1,
+            0.67,
+            0.87,
+            0.42
+          ],
+          "targetProbability": 0.263,
+          "isFeasible": true,
+          "python_prob": 0.31362929940223694,
+          "python_logit": -0.7832062244415283
+        },
+        {
+          "cloudId": "azure",
+          "cloudNodeIdx": 1,
+          "interaction": [
+            0.1,
+            0.81,
+            0.88,
+            0.55
+          ],
+          "targetProbability": 0.3245,
+          "isFeasible": true,
+          "python_prob": 0.3541927635669708,
+          "python_logit": -0.6006598472595215
+        },
+        {
+          "cloudId": "gcp",
+          "cloudNodeIdx": 2,
+          "interaction": [
+            0.1,
+            0.89,
+            0.88,
+            0.81
+          ],
+          "targetProbability": 0.4125,
+          "isFeasible": true,
+          "python_prob": 0.377499520778656,
+          "python_logit": -0.5001750588417053
+        }
+      ],
+      "python_unmasked_choice": "gcp",
+      "python_masked_choice": "gcp"
+    },
+    {
+      "workloadId": "WL-270",
+      "workloadNodeIdx": 73,
+      "candidates": [
+        {
+          "cloudId": "aws",
+          "cloudNodeIdx": 0,
+          "interaction": [
+            0.41,
+            0.52,
+            0.88,
+            0.42
+          ],
+          "targetProbability": 0.2491,
+          "isFeasible": false,
+          "python_prob": 0.30530115962028503,
+          "python_logit": -0.8221796751022339
+        },
+        {
+          "cloudId": "azure",
+          "cloudNodeIdx": 1,
+          "interaction": [
+            0.45,
+            0.7,
+            0.89,
+            0.55
+          ],
+          "targetProbability": 0.3362,
+          "isFeasible": true,
+          "python_prob": 0.3438769280910492,
+          "python_logit": -0.6460645794868469
+        },
+        {
+          "cloudId": "gcp",
+          "cloudNodeIdx": 2,
+          "interaction": [
+            0.48,
+            0.8,
+            0.89,
+            0.81
+          ],
+          "targetProbability": 0.4148,
+          "isFeasible": true,
+          "python_prob": 0.36592069268226624,
+          "python_logit": -0.5497574806213379
+        }
+      ],
+      "python_unmasked_choice": "gcp",
+      "python_masked_choice": "gcp"
+    },
+    {
+      "workloadId": "WL-130",
+      "workloadNodeIdx": 9,
+      "candidates": [
+        {
+          "cloudId": "aws",
+          "cloudNodeIdx": 0,
+          "interaction": [
+            0.8,
+            0.61,
+            0.91,
+            0.42
+          ],
+          "targetProbability": 0.2547,
+          "isFeasible": true,
+          "python_prob": 0.2944771349430084,
+          "python_logit": -0.8737377524375916
+        },
+        {
+          "cloudId": "azure",
+          "cloudNodeIdx": 1,
+          "interaction": [
+            0.82,
+            0.77,
+            0.92,
+            0.55
+          ],
+          "targetProbability": 0.3337,
+          "isFeasible": true,
+          "python_prob": 0.33305343985557556,
+          "python_logit": -0.6944069862365723
+        },
+        {
+          "cloudId": "gcp",
+          "cloudNodeIdx": 2,
+          "interaction": [
+            0.83,
+            0.86,
+            0.93,
+            0.81
+          ],
+          "targetProbability": 0.4116,
+          "isFeasible": true,
+          "python_prob": 0.3549579679965973,
+          "python_logit": -0.5973160862922668
+        }
+      ],
+      "python_unmasked_choice": "gcp",
+      "python_masked_choice": "gcp"
+    },
+    {
+      "workloadId": "WL-228",
+      "workloadNodeIdx": 31,
+      "candidates": [
+        {
+          "cloudId": "aws",
+          "cloudNodeIdx": 0,
+          "interaction": [
+            0.7,
+            0.86,
+            0.89,
+            0.42
+          ],
+          "targetProbability": 0.261,
+          "isFeasible": true,
+          "python_prob": 0.29428061842918396,
+          "python_logit": -0.8746839165687561
+        },
+        {
+          "cloudId": "azure",
+          "cloudNodeIdx": 1,
+          "interaction": [
+            0.73,
+            0.95,
+            0.9,
+            0.55
+          ],
+          "targetProbability": 0.3419,
+          "isFeasible": true,
+          "python_prob": 0.33363375067710876,
+          "python_logit": -0.6917955875396729
+        },
+        {
+          "cloudId": "gcp",
+          "cloudNodeIdx": 2,
+          "interaction": [
+            0.74,
+            1,
+            0.91,
+            0.81
+          ],
+          "targetProbability": 0.3972,
+          "isFeasible": true,
+          "python_prob": 0.3561480939388275,
+          "python_logit": -0.5921221971511841
+        }
+      ],
+      "python_unmasked_choice": "gcp",
+      "python_masked_choice": "gcp"
+    }
+  ]
+}

@@ -1,0 +1,562 @@
+{
+  "round-robin": {
+    "42": {
+      "CAPACITY_REDUCTION": {
+        "cost": 1.32,
+        "sla_rate": 66.7,
+        "p95_lat": 77.3,
+        "carbon": 9.2,
+        "reward": -6.501,
+        "safety_viols": 0
+      },
+      "LATENCY_SPIKE": {
+        "cost": 1.29,
+        "sla_rate": 100.0,
+        "p95_lat": 134.5,
+        "carbon": 9.0,
+        "reward": -8.371,
+        "safety_viols": 0
+      },
+      "PROVIDER_FAILURE": {
+        "cost": 1.25,
+        "sla_rate": 26.7,
+        "p95_lat": 62.0,
+        "carbon": 8.1,
+        "reward": -5.687,
+        "safety_viols": 10
+      }
+    },
+    "101": {
+      "CAPACITY_REDUCTION": {
+        "cost": 1.3,
+        "sla_rate": 10.0,
+        "p95_lat": 74.9,
+        "carbon": 9.1,
+        "reward": -2.005,
+        "safety_viols": 0
+      },
+      "LATENCY_SPIKE": {
+        "cost": 1.28,
+        "sla_rate": 100.0,
+        "p95_lat": 134.5,
+        "carbon": 8.9,
+        "reward": -8.399,
+        "safety_viols": 0
+      },
+      "PROVIDER_FAILURE": {
+        "cost": 1.28,
+        "sla_rate": 3.3,
+        "p95_lat": 54.8,
+        "carbon": 8.4,
+        "reward": -3.406,
+        "safety_viols": 10
+      }
+    },
+    "202": {
+      "CAPACITY_REDUCTION": {
+        "cost": 1.29,
+        "sla_rate": 10.0,
+        "p95_lat": 74.3,
+        "carbon": 9.0,
+        "reward": -1.937,
+        "safety_viols": 0
+      },
+      "LATENCY_SPIKE": {
+        "cost": 1.29,
+        "sla_rate": 100.0,
+        "p95_lat": 133.4,
+        "carbon": 9.1,
+        "reward": -8.32,
+        "safety_viols": 0
+      },
+      "PROVIDER_FAILURE": {
+        "cost": 1.26,
+        "sla_rate": 3.3,
+        "p95_lat": 57.9,
+        "carbon": 8.2,
+        "reward": -3.459,
+        "safety_viols": 10
+      }
+    }
+  },
+  "best-fit-cost": {
+    "42": {
+      "CAPACITY_REDUCTION": {
+        "cost": 1.26,
+        "sla_rate": 0.0,
+        "p95_lat": 50.3,
+        "carbon": 6.5,
+        "reward": -2.794,
+        "safety_viols": 0
+      },
+      "LATENCY_SPIKE": {
+        "cost": 1.23,
+        "sla_rate": 100.0,
+        "p95_lat": 87.6,
+        "carbon": 6.3,
+        "reward": -6.717,
+        "safety_viols": 0
+      },
+      "PROVIDER_FAILURE": {
+        "cost": 1.21,
+        "sla_rate": 0.0,
+        "p95_lat": 57.6,
+        "carbon": 6.2,
+        "reward": -2.251,
+        "safety_viols": 0
+      }
+    },
+    "101": {
+      "CAPACITY_REDUCTION": {
+        "cost": 1.24,
+        "sla_rate": 0.0,
+        "p95_lat": 50.9,
+        "carbon": 6.3,
+        "reward": -2.856,
+        "safety_viols": 0
+      },
+      "LATENCY_SPIKE": {
+        "cost": 1.22,
+        "sla_rate": 100.0,
+        "p95_lat": 90.2,
+        "carbon": 6.2,
+        "reward": -6.733,
+        "safety_viols": 0
+      },
+      "PROVIDER_FAILURE": {
+        "cost": 1.24,
+        "sla_rate": 0.0,
+        "p95_lat": 54.8,
+        "carbon": 6.3,
+        "reward": -2.218,
+        "safety_viols": 0
+      }
+    },
+    "202": {
+      "CAPACITY_REDUCTION": {
+        "cost": 1.23,
+        "sla_rate": 0.0,
+        "p95_lat": 51.5,
+        "carbon": 6.3,
+        "reward": -2.811,
+        "safety_viols": 0
+      },
+      "LATENCY_SPIKE": {
+        "cost": 1.22,
+        "sla_rate": 100.0,
+        "p95_lat": 85.6,
+        "carbon": 6.3,
+        "reward": -6.543,
+        "safety_viols": 0
+      },
+      "PROVIDER_FAILURE": {
+        "cost": 1.22,
+        "sla_rate": 0.0,
+        "p95_lat": 57.9,
+        "carbon": 6.3,
+        "reward": -2.257,
+        "safety_viols": 0
+      }
+    }
+  },
+  "weighted-heuristic": {
+    "42": {
+      "CAPACITY_REDUCTION": {
+        "cost": 1.38,
+        "sla_rate": 50.0,
+        "p95_lat": 77.3,
+        "carbon": 11.2,
+        "reward": -7.545,
+        "safety_viols": 13
+      },
+      "LATENCY_SPIKE": {
+        "cost": 1.38,
+        "sla_rate": 100.0,
+        "p95_lat": 115.5,
+        "carbon": 12.4,
+        "reward": -7.383,
+        "safety_viols": 0
+      },
+      "PROVIDER_FAILURE": {
+        "cost": 1.29,
+        "sla_rate": 30.0,
+        "p95_lat": 62.0,
+        "carbon": 10.1,
+        "reward": -3.316,
+        "safety_viols": 0
+      }
+    },
+    "101": {
+      "CAPACITY_REDUCTION": {
+        "cost": 1.36,
+        "sla_rate": 46.7,
+        "p95_lat": 77.3,
+        "carbon": 11.1,
+        "reward": -7.044,
+        "safety_viols": 10
+      },
+      "LATENCY_SPIKE": {
+        "cost": 1.37,
+        "sla_rate": 100.0,
+        "p95_lat": 114.2,
+        "carbon": 12.3,
+        "reward": -7.357,
+        "safety_viols": 0
+      },
+      "PROVIDER_FAILURE": {
+        "cost": 1.32,
+        "sla_rate": 26.7,
+        "p95_lat": 62.0,
+        "carbon": 10.4,
+        "reward": -3.177,
+        "safety_viols": 0
+      }
+    },
+    "202": {
+      "CAPACITY_REDUCTION": {
+        "cost": 1.34,
+        "sla_rate": 43.3,
+        "p95_lat": 75.4,
+        "carbon": 10.9,
+        "reward": -6.907,
+        "safety_viols": 11
+      },
+      "LATENCY_SPIKE": {
+        "cost": 1.38,
+        "sla_rate": 100.0,
+        "p95_lat": 114.1,
+        "carbon": 12.4,
+        "reward": -7.335,
+        "safety_viols": 0
+      },
+      "PROVIDER_FAILURE": {
+        "cost": 1.3,
+        "sla_rate": 26.7,
+        "p95_lat": 64.4,
+        "carbon": 10.3,
+        "reward": -3.203,
+        "safety_viols": 0
+      }
+    }
+  },
+  "graphsage-only": {
+    "42": {
+      "CAPACITY_REDUCTION": {
+        "cost": 1.26,
+        "sla_rate": 0.0,
+        "p95_lat": 50.3,
+        "carbon": 6.5,
+        "reward": -2.794,
+        "safety_viols": 0
+      },
+      "LATENCY_SPIKE": {
+        "cost": 1.23,
+        "sla_rate": 100.0,
+        "p95_lat": 87.6,
+        "carbon": 6.3,
+        "reward": -6.717,
+        "safety_viols": 0
+      },
+      "PROVIDER_FAILURE": {
+        "cost": 1.21,
+        "sla_rate": 0.0,
+        "p95_lat": 57.6,
+        "carbon": 6.2,
+        "reward": -2.251,
+        "safety_viols": 0
+      }
+    },
+    "101": {
+      "CAPACITY_REDUCTION": {
+        "cost": 1.24,
+        "sla_rate": 0.0,
+        "p95_lat": 50.9,
+        "carbon": 6.3,
+        "reward": -2.856,
+        "safety_viols": 0
+      },
+      "LATENCY_SPIKE": {
+        "cost": 1.22,
+        "sla_rate": 100.0,
+        "p95_lat": 90.2,
+        "carbon": 6.2,
+        "reward": -6.733,
+        "safety_viols": 0
+      },
+      "PROVIDER_FAILURE": {
+        "cost": 1.24,
+        "sla_rate": 0.0,
+        "p95_lat": 54.8,
+        "carbon": 6.3,
+        "reward": -2.218,
+        "safety_viols": 0
+      }
+    },
+    "202": {
+      "CAPACITY_REDUCTION": {
+        "cost": 1.23,
+        "sla_rate": 0.0,
+        "p95_lat": 51.5,
+        "carbon": 6.3,
+        "reward": -2.811,
+        "safety_viols": 0
+      },
+      "LATENCY_SPIKE": {
+        "cost": 1.22,
+        "sla_rate": 100.0,
+        "p95_lat": 85.6,
+        "carbon": 6.3,
+        "reward": -6.543,
+        "safety_viols": 0
+      },
+      "PROVIDER_FAILURE": {
+        "cost": 1.22,
+        "sla_rate": 0.0,
+        "p95_lat": 57.9,
+        "carbon": 6.3,
+        "reward": -2.257,
+        "safety_viols": 0
+      }
+    }
+  },
+  "standard-ppo": {
+    "42": {
+      "CAPACITY_REDUCTION": {
+        "cost": 1.71,
+        "sla_rate": 0.0,
+        "p95_lat": 52.3,
+        "carbon": 13.1,
+        "reward": -1.596,
+        "safety_viols": 0
+      },
+      "LATENCY_SPIKE": {
+        "cost": 1.65,
+        "sla_rate": 100.0,
+        "p95_lat": 109.5,
+        "carbon": 12.1,
+        "reward": -5.535,
+        "safety_viols": 0
+      },
+      "PROVIDER_FAILURE": {
+        "cost": 1.14,
+        "sla_rate": 33.3,
+        "p95_lat": 999.0,
+        "carbon": 7.6,
+        "reward": -4.392,
+        "safety_viols": 0
+      }
+    },
+    "101": {
+      "CAPACITY_REDUCTION": {
+        "cost": 1.66,
+        "sla_rate": 0.0,
+        "p95_lat": 52.3,
+        "carbon": 11.8,
+        "reward": -1.424,
+        "safety_viols": 0
+      },
+      "LATENCY_SPIKE": {
+        "cost": 1.64,
+        "sla_rate": 100.0,
+        "p95_lat": 109.5,
+        "carbon": 12.5,
+        "reward": -5.498,
+        "safety_viols": 0
+      },
+      "PROVIDER_FAILURE": {
+        "cost": 1.29,
+        "sla_rate": 36.7,
+        "p95_lat": 999.0,
+        "carbon": 8.4,
+        "reward": -4.737,
+        "safety_viols": 0
+      }
+    },
+    "202": {
+      "CAPACITY_REDUCTION": {
+        "cost": 1.63,
+        "sla_rate": 0.0,
+        "p95_lat": 50.4,
+        "carbon": 11.6,
+        "reward": -1.382,
+        "safety_viols": 0
+      },
+      "LATENCY_SPIKE": {
+        "cost": 1.65,
+        "sla_rate": 100.0,
+        "p95_lat": 108.4,
+        "carbon": 12.5,
+        "reward": -5.431,
+        "safety_viols": 0
+      },
+      "PROVIDER_FAILURE": {
+        "cost": 1.28,
+        "sla_rate": 36.7,
+        "p95_lat": 999.0,
+        "carbon": 8.4,
+        "reward": -4.777,
+        "safety_viols": 0
+      }
+    }
+  },
+  "graph-aware-ppo": {
+    "42": {
+      "CAPACITY_REDUCTION": {
+        "cost": 1.26,
+        "sla_rate": 0.0,
+        "p95_lat": 50.3,
+        "carbon": 6.5,
+        "reward": -2.794,
+        "safety_viols": 0
+      },
+      "LATENCY_SPIKE": {
+        "cost": 1.23,
+        "sla_rate": 100.0,
+        "p95_lat": 87.6,
+        "carbon": 6.3,
+        "reward": -6.717,
+        "safety_viols": 0
+      },
+      "PROVIDER_FAILURE": {
+        "cost": 1.21,
+        "sla_rate": 0.0,
+        "p95_lat": 57.6,
+        "carbon": 6.2,
+        "reward": -2.251,
+        "safety_viols": 0
+      }
+    },
+    "101": {
+      "CAPACITY_REDUCTION": {
+        "cost": 1.24,
+        "sla_rate": 0.0,
+        "p95_lat": 50.9,
+        "carbon": 6.3,
+        "reward": -2.856,
+        "safety_viols": 0
+      },
+      "LATENCY_SPIKE": {
+        "cost": 1.22,
+        "sla_rate": 100.0,
+        "p95_lat": 90.2,
+        "carbon": 6.2,
+        "reward": -6.733,
+        "safety_viols": 0
+      },
+      "PROVIDER_FAILURE": {
+        "cost": 1.24,
+        "sla_rate": 0.0,
+        "p95_lat": 54.8,
+        "carbon": 6.3,
+        "reward": -2.218,
+        "safety_viols": 0
+      }
+    },
+    "202": {
+      "CAPACITY_REDUCTION": {
+        "cost": 1.23,
+        "sla_rate": 0.0,
+        "p95_lat": 51.5,
+        "carbon": 6.3,
+        "reward": -2.811,
+        "safety_viols": 0
+      },
+      "LATENCY_SPIKE": {
+        "cost": 1.22,
+        "sla_rate": 100.0,
+        "p95_lat": 85.6,
+        "carbon": 6.3,
+        "reward": -6.543,
+        "safety_viols": 0
+      },
+      "PROVIDER_FAILURE": {
+        "cost": 1.22,
+        "sla_rate": 0.0,
+        "p95_lat": 57.9,
+        "carbon": 6.3,
+        "reward": -2.257,
+        "safety_viols": 0
+      }
+    }
+  },
+  "graph-aware-meta-rl": {
+    "42": {
+      "CAPACITY_REDUCTION": {
+        "cost": 1.26,
+        "sla_rate": 0.0,
+        "p95_lat": 50.3,
+        "carbon": 6.5,
+        "reward": -2.794,
+        "safety_viols": 0
+      },
+      "LATENCY_SPIKE": {
+        "cost": 1.23,
+        "sla_rate": 100.0,
+        "p95_lat": 87.6,
+        "carbon": 6.3,
+        "reward": -6.717,
+        "safety_viols": 0
+      },
+      "PROVIDER_FAILURE": {
+        "cost": 1.21,
+        "sla_rate": 0.0,
+        "p95_lat": 57.6,
+        "carbon": 6.2,
+        "reward": -2.251,
+        "safety_viols": 0
+      }
+    },
+    "101": {
+      "CAPACITY_REDUCTION": {
+        "cost": 1.24,
+        "sla_rate": 0.0,
+        "p95_lat": 50.9,
+        "carbon": 6.3,
+        "reward": -2.856,
+        "safety_viols": 0
+      },
+      "LATENCY_SPIKE": {
+        "cost": 1.22,
+        "sla_rate": 100.0,
+        "p95_lat": 90.2,
+        "carbon": 6.2,
+        "reward": -6.733,
+        "safety_viols": 0
+      },
+      "PROVIDER_FAILURE": {
+        "cost": 1.24,
+        "sla_rate": 0.0,
+        "p95_lat": 54.8,
+        "carbon": 6.3,
+        "reward": -2.218,
+        "safety_viols": 0
+      }
+    },
+    "202": {
+      "CAPACITY_REDUCTION": {
+        "cost": 1.23,
+        "sla_rate": 0.0,
+        "p95_lat": 51.5,
+        "carbon": 6.3,
+        "reward": -2.811,
+        "safety_viols": 0
+      },
+      "LATENCY_SPIKE": {
+        "cost": 1.22,
+        "sla_rate": 100.0,
+        "p95_lat": 85.6,
+        "carbon": 6.3,
+        "reward": -6.543,
+        "safety_viols": 0
+      },
+      "PROVIDER_FAILURE": {
+        "cost": 1.22,
+        "sla_rate": 0.0,
+        "p95_lat": 57.9,
+        "carbon": 6.3,
+        "reward": -2.257,
+        "safety_viols": 0
+      }
+    }
+  }
+}
